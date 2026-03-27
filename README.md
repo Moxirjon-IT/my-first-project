@@ -1,2 +1,13 @@
-# my-first-project
-My first project on GitHub
+# My First Project
+
+Bu mening birinchi GitHub loyiham 🚀
+
+## Nima qildim:
+- Oddiy web sahifa yaratdim
+- HTML ishlatdim
+
+## Fayl:
+- index.html
+
+## Muallif:
+Moxirjon
