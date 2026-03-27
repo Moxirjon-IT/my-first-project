@@ -1,13 +1,14 @@
 # My First Project
 
-Bu mening birinchi GitHub loyiham 🚀
+Bu mening GitHub’da birinchi loyiham 🚀
 
 ## Nima qildim:
-- Oddiy web sahifa yaratdim
-- HTML ishlatdim
+- GitHub’da repository yaratdim
+- index.html fayl qo‘shdim
+- HTML o‘rganishni boshladim
 
-## Fayl:
-- index.html
+## Maqsad:
+Kelajakda web dasturlashni o‘rganish
 
 ## Muallif:
 Moxirjon
