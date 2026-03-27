@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Moxirjon | My First Website</title>
+    <title>Moxirjon | IT Student</title>
     <style>
         body {
             margin: 0;
-            padding: 0;
             font-family: Arial;
             background: linear-gradient(to right, #0f172a, #1e293b);
             color: white;
@@ -13,59 +12,79 @@
         }
 
         h1 {
-            margin-top: 100px;
-            font-size: 40px;
+            margin-top: 80px;
+            font-size: 42px;
             color: #38bdf8;
         }
 
         p {
             font-size: 20px;
-            margin-bottom: 30px;
         }
 
-        button {
+        .btn {
             padding: 12px 25px;
-            font-size: 16px;
             background-color: #38bdf8;
             border: none;
             border-radius: 10px;
             cursor: pointer;
-            transition: 0.3s;
+            margin-top: 20px;
         }
 
-        button:hover {
+        .btn:hover {
             background-color: #0ea5e9;
         }
 
-        .card {
+        .section {
             background: #1e293b;
-            padding: 20px;
             margin: 30px auto;
-            width: 80%;
+            padding: 20px;
+            width: 85%;
             border-radius: 15px;
+        }
+
+        h2 {
+            color: #38bdf8;
         }
     </style>
 </head>
 <body>
 
     <h1>Salom, men Moxirjon 🚀</h1>
-    <p>Bu mening birinchi web saytim</p>
+    <p>Men IT sohasini o‘rganayotgan talabaman</p>
 
-    <button onclick="bosildi()">Bos meni</button>
+    <button class="btn" onclick="salom()">Bos meni</button>
 
-    <div class="card">
+    <div class="section">
         <h2>Men haqimda</h2>
-        <p>Men TDIU talabasi va dasturlashni o‘rganayapman 😎</p>
+        <p>
+            Men TDIU talabasi bo‘lib, IT sohasida o‘z yo‘limni topish ustida ishlayapman.
+            Hozir GitHub, HTML va web dasturlashni o‘rganayapman 😎
+        </p>
     </div>
 
-    <div class="card">
+    <div class="section">
+        <h2>Ko‘nikmalarim</h2>
+        <p>HTML (boshlang‘ich)</p>
+        <p>GitHub ishlatish</p>
+        <p>Dasturlashni o‘rganish jarayonidaman</p>
+    </div>
+
+    <div class="section">
         <h2>Maqsadim</h2>
-        <p>Kuchli dasturchi bo‘lish va katta loyihalar qilish 🔥</p>
+        <p>
+            Kelajakda kuchli IT mutaxassisi bo‘lish va katta loyihalar ustida ishlash 🔥
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Aloqa</h2>
+        <p>Telegram: @your_username</p>
+        <p>Email: example@gmail.com</p>
     </div>
 
     <script>
-        function bosildi() {
-            alert("Rahmat! Saytimga tashrif buyurding 😎");
+        function salom() {
+            alert("Rahmat! Saytimga kirganing uchun 😎");
         }
     </script>
 
